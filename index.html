@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>letEConst</title>
+<style>
+    body{
+        background-color: rgb(15, 7, 59);
+    }
+    *{
+        align-items: center;
+    text-align: center;
+
+    }
+    .content{
+        display: flex;
+        margin-left: 378px;
+        font-size: 100px;
+        margin-top: 489px;
+       color: aliceblue;
+    }
+    .H{
+        background-color: rgb(233, 16, 81);
+        margin: 56px;
+        height: 138px;
+        width: 138px;
+    }
+    .M{
+        background-color: rgb(233, 16, 81);
+        margin: 56px;
+        height: 138px;
+        width: 138px;
+    }
+    .S{
+        background-color: rgb(233, 16, 81);
+        margin: 56px;
+        height: 138px;
+        width: 138px;
+    }
+    .inicio{
+        background-color: green;
+        height: 67px;
+        border: none;
+        color: aliceblue;
+        font-weight: bold;
+        width: 80px;
+        cursor: pointer;
+
+    }
+    .cancelar{
+        background-color: rgb(122, 6, 6);
+        height: 67px;
+        border: none;
+        color: aliceblue;
+        font-weight: bold;
+        width: 80px;
+        cursor: pointer;
+
+    }
+    .reiniciar{
+        background-color: rgb(253, 253, 253);
+        height: 67px;
+        border: none;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        width: 80px;
+        cursor: pointer;
+
+    }
+</style>
+</head>
+<body >
+    <div class="content">
+        <button class="inicio" onclick="segundo()">
+            Iniciar
+        </button>
+        <button class="cancelar" onclick="parar()">
+            Parar
+        </button>
+        <button class="reiniciar" onclick="cancelar()">
+            Reiniciar
+        </button>
+        <div class="H" id="h">
+0
+        </div>
+        <div class="M" id="m"> 
+0
+        </div>
+        <div class="S" id="s">
+0    
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
